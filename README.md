@@ -21,3 +21,7 @@ sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-setti
 https://github.com/SpookySkeletons/proton-ge-rtsp/releases
 Download tar and "tar xvf" into /home/username/.steam/steam/compatibilitytoold.d/
 
+## SteamVR
+
+Installing and launching doesn't open up the SteamVR window, and no in-game overlay works.
+Fix for this is putting this in the launch options: QT_QPA_PLATFORM=xcb %command%
