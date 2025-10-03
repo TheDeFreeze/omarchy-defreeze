@@ -27,7 +27,7 @@ Installing and launching doesn't open up the SteamVR window, and no in-game over
 Fix for this is putting this in the launch options: QT_QPA_PLATFORM=xcb %command%
 
 ## Custom keybindings
-'''bash
+bash'''
 bindd = SUPER, S, Steam, exec, omarchy-launch-or-focus steam "uwsm app -- steam.desktop"
 bindd = SUPER, D, Discord, exec, omarchy-launch-or-focus discord "uwsm app -- Discord.desktop"
 '''
