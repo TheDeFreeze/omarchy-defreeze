@@ -14,9 +14,9 @@ Got desktop to work for now using this:
 Prerequisits:
 Install proprietary NVIDIA drivers.
 https://github.com/lutris/docs/blob/master/InstallingDrivers.md
-'''bash
+```bash
 sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
-'''
+```
 
 https://github.com/SpookySkeletons/proton-ge-rtsp/releases
 Download tar and "tar xvf" into /home/username/.steam/steam/compatibilitytoold.d/
@@ -27,7 +27,7 @@ Installing and launching doesn't open up the SteamVR window, and no in-game over
 Fix for this is putting this in the launch options: QT_QPA_PLATFORM=xcb %command%
 
 ## Custom keybindings
-bash'''
+```bash
 bindd = SUPER, S, Steam, exec, omarchy-launch-or-focus steam "uwsm app -- steam.desktop"
 bindd = SUPER, D, Discord, exec, omarchy-launch-or-focus discord "uwsm app -- Discord.desktop"
-'''
+```
