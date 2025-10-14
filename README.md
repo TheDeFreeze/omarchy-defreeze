@@ -31,3 +31,10 @@ Fix for this is putting this in the launch options: QT_QPA_PLATFORM=xcb %command
 bindd = SUPER, S, Steam, exec, omarchy-launch-or-focus steam "uwsm app -- steam.desktop"
 bindd = SUPER, D, Discord, exec, omarchy-launch-or-focus discord "uwsm app -- Discord.desktop"
 ```
+
+## Disable focus on mouse hover
+```bash
+input {
+  follow_mouse=2
+}
+```
