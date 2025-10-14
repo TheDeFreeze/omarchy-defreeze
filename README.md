@@ -33,6 +33,7 @@ bindd = SUPER, D, Discord, exec, omarchy-launch-or-focus discord "uwsm app -- Di
 ```
 
 ## Disable focus on mouse hover
+Put this in the .config/input.conf
 ```bash
 input {
   follow_mouse=2
